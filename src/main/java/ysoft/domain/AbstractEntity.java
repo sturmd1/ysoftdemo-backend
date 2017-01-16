@@ -9,7 +9,7 @@ import java.io.Serializable;
  * Created by sturm on 30.08.2016.
  */
 @MappedSuperclass
-public class AbstractEntity implements Serializable {
+public abstract class AbstractEntity implements Serializable {
 
     @Id
     @GeneratedValue
